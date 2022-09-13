@@ -235,19 +235,20 @@ export const services = [
 // testimonials
 export const testimonials = [
   {
+    authorImg: sealife,
+    // authorText: `Sustainable Development Goal 14 - 'Life below water' `,
+    authorText: `Oceans and fisheries support the global population's economic, social and environmental needs.`,
+    authorName: "GOAL 14",
+    authorPosition: "Life below water",
+  },
+  {
     authorImg: wildlife,
     authorText:
       "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
     authorName: "Olivia Doe",
     authorPosition: "Head of Design, Google",
   },
-  {
-    authorImg: sealife,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
+
   {
     authorImg: climate,
     authorText:

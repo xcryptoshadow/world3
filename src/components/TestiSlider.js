@@ -22,7 +22,7 @@ const TestiSlider = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
@@ -33,8 +33,8 @@ const TestiSlider = () => {
           return (
             <SwiperSlide key={index}>
               <div className="flex flex-col lg:flex-row gap-12 lg:gap-32">
-                <div className="w-60 h-60 lg:w-[828px] lg:h-[828px]">
-                  <img className="rounded-2xl  " src={authorImg} alt="" />
+                <div className="w-60 h-60 lg:w-[1028px] lg:h-[1028px] lg:-mb-96  ">
+                  <img className="rounded-2xl" src={authorImg} alt="" />
                 </div>
                 <div className="flex flex-col max-w-3xl">
                   <h5 className="font-body text-2xl mb-8 italic font-normal">
