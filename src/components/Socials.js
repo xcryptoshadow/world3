@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
 // import icons
-import { social } from '../data';
+import { social } from "../data";
 
 const Socials = () => {
   return (
-    <ul className='flex space-x-6 '>
+    <ul className="flex space-x-6 ">
       {social.map((item, index) => {
         return (
           <li
-            className='flex justify-center items-center text-accent'
+            className="flex justify-center items-center text-green-400"
             key={index}
           >
-            <a className='text-base' href={item.href}>
+            <a className="text-base" href={item.href}>
               {item.icon}
             </a>
           </li>

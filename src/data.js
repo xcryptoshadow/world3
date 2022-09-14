@@ -13,6 +13,7 @@ import {
   FiDroplet,
   FiGlobe,
   FiUsers,
+  FiTwitter,
 } from "react-icons/fi";
 import { GiPineTree } from "react-icons/gi";
 
@@ -74,28 +75,16 @@ export const navigation = [
     name: "testimonials",
     href: "testimonials",
   },
-  {
-    name: "contact",
-    href: "contact",
-  },
 ];
 
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "",
-  },
-  {
-    icon: <FiInstagram />,
+    icon: <FiTwitter />,
     href: "",
   },
   {
     icon: <FiGithub />,
-    href: "",
-  },
-  {
-    icon: <FiDribbble />,
     href: "",
   },
 ];

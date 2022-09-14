@@ -39,6 +39,6 @@
     @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
   }
   .active {
-    @apply text-accent;
+    @apply text-green-600;
   }
 }
