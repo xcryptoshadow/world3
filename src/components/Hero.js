@@ -17,11 +17,12 @@ const Hero = () => {
               World3 🌍
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Targeting to solve SDG goals by funding paniors or researches who
-              are making the world a better in cyrpto
+              World 3 is a web 3.0 platform that will bring together explorers
+              and developers to solve social and environmental problems while
+              providing a sustainable livelihood for the community.
             </p>
             <button className="btn btn-md bg-green-600 hover:bg-secondary-hover md:btn-lg transition-all">
-              Donate to a researcher
+              Donate to an explorer
             </button>
           </div>
           <div className="hidden lg:flex flex-1 w-32  justify-end items-end ">

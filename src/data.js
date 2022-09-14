@@ -64,8 +64,8 @@ export const navigation = [
     href: "about",
   },
   {
-    name: "portfolio",
-    href: "portfolio",
+    name: "explorers",
+    href: "explorers",
   },
   {
     name: "services",
