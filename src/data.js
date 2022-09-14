@@ -10,7 +10,11 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiDroplet,
+  FiGlobe,
+  FiUsers,
 } from "react-icons/fi";
+import { GiPineTree } from "react-icons/gi";
 
 // companies icons
 import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
@@ -207,28 +211,24 @@ export const skills = [
 // services
 export const services = [
   {
-    icon: <FiLayout />,
-    name: "Web Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    icon: <FiDroplet />,
+    name: "50 ETH",
+    description: "Amount raised to help explorers",
   },
   {
-    icon: <FiSettings />,
-    name: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    icon: <GiPineTree />,
+    name: "20 ETH",
+    description: "Amount raised to help explorers",
   },
   {
-    icon: <FiPenTool />,
-    name: "Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    icon: <FiGlobe />,
+    name: "100ETH",
+    description: "Amount raised to help explorers",
   },
   {
-    icon: <FiTag />,
-    name: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    icon: <FiUsers />,
+    name: "400ETH",
+    description: "Amount raised to help explorers",
   },
 ];
 
