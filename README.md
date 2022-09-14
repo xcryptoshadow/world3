@@ -1,7 +1,13 @@
-# Responsive Portfolio Website using ReactJS & Tailwind CSS.
-## [Watch it on youtube](https://www.youtube.com/watch?v=mfpEn52dD5k)
-### Responsive Portfolio Website using ReactJS & Tailwind CSS.
-Don't forget to subscribe to the channel to see more videos like this. [Cristian Mihai](https://www.youtube.com/channel/UC5dPmW7ZTsLyIqd-M4cs8EA)
+# Sample Hardhat Project
 
-![](preview.png)
-# world3
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+GAS_REPORT=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
